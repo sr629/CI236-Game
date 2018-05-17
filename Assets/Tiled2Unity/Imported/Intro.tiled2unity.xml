@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 17.5.2018 г. 11:52:27-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="Intro_mesh_0001" material="Non_playable_area_2" />
+  <AssignMaterial mesh="Intro_mesh_0002" material="Playable_area" />
+  <AssignMaterial mesh="Intro_mesh_0003" material="Shadow" />
+  <AssignMaterial mesh="Intro_mesh_0004" material="Non_playable_area" />
+  <Prefab name="Intro" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="4" numTilesWide="100" numTilesHigh="100" tileWidth="32" tileHeight="32" exportScale="0.03125" mapWidthInPixels="3200" mapHeightInPixels="3200" backgroundColor="#808080">
+    <GameObject name="Tile Layer 2" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="Non_playable_area_2" x="-16" y="0" mesh="Intro_mesh_0001" sortingLayerName="Background" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="Tile Layer 1" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="Playable_area" x="-16" y="0" mesh="Intro_mesh_0002" sortingLayerName="Ground" sortingOrder="1" opacity="1" />
+      <GameObject name="Collision">
+        <EdgeCollider2D>
+          <Points>0.75,14.34375 0.75,14.3125 0.75,14.34375 0.78125,5.0625 -1.5625,3.03125 -1.5625,0.34375 0.6875,-1.5625 3.9375,-1.53125 6.1875,0.34375 6.15625,3.0625 3.78125,5.03125 3.8125,14.34375 0.75,14.34375</Points>
+        </EdgeCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="shadow" x="0.166666567" y="0.125" z="0">
+      <TileLayer offsetX="5.33333" offsetY="-4" />
+      <GameObject name="Shadow" x="-32" y="0" mesh="Intro_mesh_0003" sortingLayerName="" sortingOrder="2" opacity="1" />
+    </GameObject>
+    <GameObject name="Tile Layer 3" x="3.99868751" y="-35.0115623" z="0">
+      <TileLayer offsetX="127.958" offsetY="1120.37" />
+      <GameObject name="Non_playable_area" x="-16" y="32" mesh="Intro_mesh_0004" sortingLayerName="Foreground" sortingOrder="3" opacity="1" />
+      <GameObject name="Collision">
+        <EdgeCollider2D>
+          <Points>-3.1875,49.90625 -3.21875,49.25 -3.21875,48.59375 -2.125,48.59375 -2.125,49.96875 -1.09375,50 -1.15625,48.625 -0.1875,48.59375 -0.1875,49.84375 0.4375,49.84375 0.4375,47.875 4.78125,47.84375 4.78125,54.96875 -8.0625,54.9375 -8.09375,47.84375 -3.875,47.875 -3.84375,49.90625 -3.21875,49.90625</Points>
+        </EdgeCollider2D>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="Intro_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0ludHJvX21lc2hfMDAwMS5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgLTQgLTQgMA0KdiAtMzIuODc1IC00IDANCnYgLTMyLjg3NSAyNC44NzUgMA0KdiAtNCAyNC44NzUgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDQpDQp2dCAwIDANCnZ0IDEgMA0KdnQgMSAxDQp2dCAwIDENCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgSW50cm9fbWVzaF8wMDAxDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKDQo=</ImportMesh>
+  <ImportMesh filename="Intro_mesh_0002.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0ludHJvX21lc2hfMDAwMi5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgLTQgLTQgMA0KdiAtMzIuODc1IC00IDANCnYgLTMyLjg3NSAyNC44NzUgMA0KdiAtNCAyNC44NzUgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDQpDQp2dCAwIDANCnZ0IDEgMA0KdnQgMSAxDQp2dCAwIDENCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgSW50cm9fbWVzaF8wMDAyDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKDQo=</ImportMesh>
+  <ImportMesh filename="Intro_mesh_0003.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0ludHJvX21lc2hfMDAwMy5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgLTE1IC02IDANCnYgLTUyLjUgLTYgMA0KdiAtNTIuNSAzMS41IDANCnYgLTE1IDMxLjUgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDQpDQp2dCAwIDANCnZ0IDEgMA0KdnQgMSAxDQp2dCAwIDENCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgSW50cm9fbWVzaF8wMDAzDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKDQo=</ImportMesh>
+  <ImportMesh filename="Intro_mesh_0004.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJ0ludHJvX21lc2hfMDAwNC5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gNCkNCnYgMCAtMSAwDQp2IC0yOC44NzUgLTEgMA0KdiAtMjguODc1IDI3Ljg3NSAwDQp2IDAgMjcuODc1IDANCg0KIyBUZXh0dXJlIGNvb3JpZGluYXRlcyAoQ291bnQgPSA0KQ0KdnQgMCAwDQp2dCAxIDANCnZ0IDEgMQ0KdnQgMCAxDQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIEludHJvX21lc2hfMDAwNA0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCg0K</ImportMesh>
+  <InternalTexture assetPath="Assets/Entry Level/Non_playable_area_2.png" materialName="Non_playable_area_2" />
+  <InternalTexture assetPath="Assets/Entry Level/Playable_area.png" materialName="Playable_area" />
+  <InternalTexture assetPath="Assets/Entry Level/Shadow.png" materialName="Shadow" />
+  <InternalTexture assetPath="Assets/Entry Level/Non_playable_area.png" materialName="Non_playable_area" />
+</Tiled2Unity>
