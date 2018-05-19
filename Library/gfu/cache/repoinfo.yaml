@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-05-17T18:36:46.511+01:00
-  initializedAtString: 2018-05-17T18:36:46.511+01:00
+  lastUpdatedAtString: 2018-05-19T15:09:29.257+01:00
+  initializedAtString: 2018-05-19T13:34:34.444+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/sr629/CI236-Game.git
@@ -23,14 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: Develop
+    tracking: origin/Develop
   currentConfigBranch:
-    name: master
+    name: Develop
     remote:
       name: origin
       url: https://github.com/sr629/CI236-Game.git
-    trackingBranch: master
+    trackingBranch: Develop
   currentConfigRemote:
     name: origin
     url: https://github.com/sr629/CI236-Game.git

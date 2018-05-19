@@ -12,10 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-05-17T18:39:01.935+01:00
-  initializedAtString: 2018-05-17T18:39:01.923+01:00
-  localBranches: []
-  remoteBranches: []
+  lastUpdatedAtString: 2018-05-19T15:09:29.252+01:00
+  initializedAtString: 2018-05-19T13:35:00.104+01:00
+  localBranches:
+  - name: Develop
+    tracking: origin/Develop
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/Develop
+    tracking: '[None]'
+  - name: origin/HEAD
+    tracking: '[None]'
   remotes:
   - name: origin
     url: https://github.com/sr629/CI236-Game.git
@@ -25,12 +33,39 @@ MonoBehaviour:
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - Develop
+    - master
+    values:
+    - name: Develop
+      remote:
+        name: origin
+        url: https://github.com/sr629/CI236-Game.git
+      trackingBranch: Develop
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/sr629/CI236-Game.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - Develop
+      - HEAD
+    subKeyValues:
+    - Values:
+      - name: Develop
+        remote:
+          name: origin
+          url: https://github.com/sr629/CI236-Game.git
+        trackingBranch: 
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/sr629/CI236-Game.git
+        trackingBranch: 
   configRemotes:
     keys:
     - origin
