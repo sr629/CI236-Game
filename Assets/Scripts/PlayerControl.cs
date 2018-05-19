@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControll : MonoBehaviour {
+public class PlayerControl : MonoBehaviour {
 
 	public float moveSpeed;
 	private float currentMoveSpeed;
@@ -15,18 +15,15 @@ public class PlayerControll : MonoBehaviour {
 
 	public bool dashAvailable;
 	public float dashSpeed;
-	private bool isDashing;
-	private float dashTime;
 	public float dashDistance;
-	private Vector2 direction;
+    public LayerMask dashMask;
 
 
 	// Use this for initialization
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator>();
-		dashTime = dashDistance;
-		isDashing = false;
+		
 	}
 	
 	// Update is called once per frame
@@ -65,43 +62,20 @@ public class PlayerControll : MonoBehaviour {
 		} else
 			currentMoveSpeed = moveSpeed;
 
-		if ( Input.GetButtonDown("Jump"))
-		{
-			
-			Vector2 character = new Vector2 (transform.position.x, transform.position.y);
-			character = Camera.main.ScreenToViewportPoint (character);
-			Vector2 target = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-			direction = target;
-			direction.x *= 2;
-			direction.x -= 1;
-			direction.y *= 2;
-			direction.y -= 1;
-			Debug.Log ("Character: "+character);
-			Debug.Log ("Mouse: "+target);
-			Debug.Log ("Direction: "+direction);
-			isDashing = true;
-			//myRigidbody.velocity = direction * dashSpeed;
-			//myRigidbody.AddForce (direction*dashSpeed);
-		}
-		if (isDashing) {
-			Vector2 character = new Vector2 (transform.position.x, transform.position.y);
-			character = Camera.main.ScreenToViewportPoint (character);
-			myRigidbody.MovePosition(direction);
-			dashTime -= dashDistance;
-		}
+        if (Input.GetButtonDown("Jump") && dashAvailable)
+        {
+            Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 direction = target -  new Vector2(transform.position.x, transform.position.y);
+            DashScript dashScript = GetComponent<DashScript>();
+            dashScript.Dash(dashDistance, dashSpeed, direction.normalized,dashMask);
+        }
 
-		if (dashTime <= 0) 
-		{
-			myRigidbody.velocity = Vector2.zero;
-			isDashing = false;
-			dashTime = dashDistance;
-		}
-
-		anim.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
+       
+        anim.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
 		anim.SetFloat ("MoveY", Input.GetAxisRaw ("Vertical"));
 		anim.SetBool ("PlayerMoving", playerMoving);
 		anim.SetFloat ("LastMoveX", lastMove.x);
 		anim.SetFloat ("LastMoveY", lastMove.y);
 	}
-
+    
 }
