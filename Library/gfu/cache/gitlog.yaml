@@ -12,9 +12,153 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-05-19T15:10:51.671+01:00
+  lastUpdatedAtString: 2018-05-19T18:11:25.120+01:00
   initializedAtString: 2018-05-19T13:34:41.265+01:00
   log:
+  - commitID: aa23eb97c8ab0b581a3adb8aedaf5029ece86475
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: a
+    description: a
+    timeString: 2018-05-19T15:12:13.000+01:00
+    commitTimeString: 2018-05-19T15:12:13.000+01:00
+    changes:
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\PresetManager.asset
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: db01342ceeb26882c5250c78d9bb093b3bc8ec01
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: asaa
+    description: asaa
+    timeString: 2018-05-19T15:11:44.000+01:00
+    commitTimeString: 2018-05-19T15:11:44.000+01:00
+    changes:
+    - path: Packages\manifest.json
+      fullPath: D:\shano\CI236-Game\CI236-Game\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 0f7cb3a7b0d88f5b15b5562331bea4b259887f47
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: a
+    description: a
+    timeString: 2018-05-19T15:11:29.000+01:00
+    commitTimeString: 2018-05-19T15:11:29.000+01:00
+    changes:
+    - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CopyComplete
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      projectPath: obj\Debug\Assembly-CSharp.csproj.FileListAbsolute.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.dll
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.dll
+      projectPath: obj\Debug\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.pdb
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.pdb
+      projectPath: obj\Debug\Assembly-CSharp.pdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+      originalPath: 
+      status: 4
+      staged: 0
+  - commitID: 425923c2fa57e189950199ceb30ad22008924a31
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: a
+    description: a
+    timeString: 2018-05-19T15:11:17.000+01:00
+    commitTimeString: 2018-05-19T15:11:17.000+01:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: b566497ad51945dfa6642accd9807b3d3311cadd
     mergeA: 
     mergeB: 
