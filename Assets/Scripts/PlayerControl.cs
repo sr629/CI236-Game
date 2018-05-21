@@ -6,6 +6,7 @@ public class PlayerControl : MonoBehaviour {
 
 	public float moveSpeed;
 	private float currentMoveSpeed;
+    private bool playerExists;
 
 	private Animator anim;
 	private Rigidbody2D myRigidbody;
@@ -23,7 +24,15 @@ public class PlayerControl : MonoBehaviour {
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator>();
-		
+
+        if (!playerExists)
+        {
+            playerExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else Destroy(gameObject);
+
+       
 	}
 	
 	// Update is called once per frame
