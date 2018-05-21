@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 917, y: 371}
-  m_MaxSize: {x: 22012, y: 14021}
+  m_MinSize: {x: 917, y: 392}
+  m_MaxSize: {x: 22012, y: 14042}
   vertical: 0
-  controlID: 15150
+  controlID: -1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -45,12 +45,12 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 542
-    y: 19
+    y: 92
     width: 985
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_MaximizeOnPlay: 1
-  m_Gizmos: 1
+  m_MaximizeOnPlay: 0
+  m_Gizmos: 0
   m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 0
     width: 1529
     height: 987
-  m_MinSize: {x: 640, y: 371}
-  m_MaxSize: {x: 18010, y: 14021}
+  m_MinSize: {x: 640, y: 392}
+  m_MaxSize: {x: 18010, y: 14042}
   vertical: 1
-  controlID: 15151
+  controlID: -1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 640, y: 271}
   m_MaxSize: {x: 18010, y: 10021}
   vertical: 0
-  controlID: 15152
+  controlID: -1
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,9 +221,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ea0b0000
-    m_LastClickedID: 3050
-    m_ExpandedIDs: 00000000900900003a0a0000300b0000920b0000a00c0000322e0000342e0000362e0000382e00003a2e00003c2e000000ca9a3bffffff7f
+    m_SelectedIDs: 020c0000
+    m_LastClickedID: 3074
+    m_ExpandedIDs: 00000000a6090000460b0000aa0b0000b82e0000ba2e0000bc2e0000be2e0000c02e0000c22e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -251,7 +251,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000900900003a0a0000300b0000920b0000a00c0000322e0000342e0000362e0000382e00003a2e00003c2e000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000a6090000460b0000aa0b0000b82e0000ba2e0000bc2e0000be2e0000c02e0000c22e000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -276,9 +276,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2c0d0000
-    m_LastClickedInstanceID: 3372
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 7c3a0000
+    m_LastClickedInstanceID: 14972
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 58220000760500005a350000f634000084350000ac2c0000442b0000742c00000023000014270000c6220000d4210000ca2a0000b0420000b0260000a233000000000000a225000096250000ea250000362600003e2600002e26000074250000f6330000920a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -358,9 +358,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2c0d0000
-    m_LastClickedID: 3372
-    m_ExpandedIDs: eafbffffecfbffffeefbfffff0fbffff000000002c0d0000
+    m_SelectedIDs: 7c3a0000
+    m_LastClickedID: 14972
+    m_ExpandedIDs: ca3efeffece4feffa4e8fefff471ffff647effffa281ffff6285ffffeafbffff000000007c3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -437,14 +437,14 @@ MonoBehaviour:
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
-  lastFramingTime: 14982.368463844106
+  lastFramingTime: 83928.06759198135
   m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.274, y: 0.07400006, z: 0}
+    m_Target: {x: 2.5684865, y: 7.9016485, z: -0.04296875}
     speed: 2
-    m_Value: {x: 2.274, y: 0.07400006, z: 0}
+    m_Value: {x: 2.5684865, y: 7.9016485, z: -0.04296875}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -476,9 +476,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.3566716
+    m_Target: 26.235409
     speed: 2
-    m_Value: 2.3566716
+    m_Value: 26.235409
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -533,15 +533,15 @@ MonoBehaviour:
     y: 674
     width: 1529
     height: 313
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -595,7 +595,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 3372
+  m_LastSelectedObjectID: 14972
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -817,8 +817,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 1
-  changeTab: 3
-  activeTab: 3
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 0
     isUserDataPresent: 0
@@ -985,10 +985,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2018-05-19T15:12:32.264+01:00
+      updatedTimeString: 2018-05-19T15:13:44.399+01:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2018-05-19T15:12:32.268+01:00
+      updatedTimeString: 2018-05-19T15:13:44.403+01:00
       cacheType: 1
     currentBranch:
       name: Develop
@@ -1013,221 +1013,38 @@ MonoBehaviour:
       tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    commitBody: 
-    commitMessage: 
+    commitBody: 'Dashing
+
+      Shooting
+
+'
+    commitMessage: 0.3
     currentBranch: '[Develop]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - c1e54bff6a8e275439c5cf5417b1da16
-        - d0e7ce0ebcf430d44b02240993a5edf1
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Sprites\SawBlade.png
-          label: SawBlade.png
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Sprites\SawBlade.png
-            fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
-            projectPath: Assets\Sprites\SawBlade.png
-            originalPath: 
-            status: 1
-            staged: 0
+        keys: []
+        values: []
       folders:
         keys:
-        - .vs
-        - .vs\CI236-Game
-        - .vs\CI236-Game\v15
-        - .vs\CI236-Game\v15\Server
-        - .vs\CI236-Game\v15\Server\sqlite3
-        - Assets
-        - Assets\Sprites
         - Library
         - Library\gfu
         - Library\gfu\cache
         - Library\metadata
+        - Library\metadata\2a
         - Library\metadata\d0
+        - Library\ScriptAssemblies
         - Temp
+        - Temp\__Backupscenes
         values:
-        - path: .vs
-          label: .vs
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\CI236-Game
-          label: CI236-Game
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 1
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\CI236-Game\v15
-          label: v15
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\CI236-Game\v15\Server
-          label: Server
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: .vs\CI236-Game\v15\Server\sqlite3
-          label: sqlite3
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 1
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
-        - path: Assets\Sprites
-          label: Sprites
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            status: 0
-            staged: 0
         - path: Library
           label: Library
           level: 0
           isFolder: 1
           isContainer: 0
-          isCollapsed: 0
+          isCollapsed: 1
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
@@ -1246,7 +1063,7 @@ MonoBehaviour:
           isFolder: 1
           isContainer: 0
           isCollapsed: 1
-          isHidden: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1282,7 +1099,25 @@ MonoBehaviour:
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
-          isHidden: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\2a
+          label: 2a
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1300,7 +1135,25 @@ MonoBehaviour:
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
-          isHidden: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1317,8 +1170,26 @@ MonoBehaviour:
           level: 0
           isFolder: 1
           isContainer: 0
-          isCollapsed: 0
+          isCollapsed: 1
           isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp\__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 1
           checkState: 0
@@ -1358,246 +1229,12 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: .vs
-        label: .vs
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\CI236-Game
-        label: CI236-Game
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 1
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\CI236-Game\v15
-        label: v15
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server
-        label: Server
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server\sqlite3
-        label: sqlite3
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
-        label: db.lock
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
-          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
-          projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
-        label: storage.ide
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
-          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
-          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-        label: storage.ide-shm
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-        label: storage.ide-wal
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Sprites
-        label: Sprites
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          status: 0
-          staged: 0
-      - path: Assets\Sprites\SawBlade.png
-        label: SawBlade.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\SawBlade.png
-          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
-          projectPath: Assets\Sprites\SawBlade.png
-          originalPath: 
-          status: 1
-          staged: 0
-      - path: Assets\Sprites\SawBlade.png.meta
-        label: SawBlade.png.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\SawBlade.png.meta
-          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
-          projectPath: Assets\Sprites\SawBlade.png.meta
-          originalPath: 
-          status: 1
-          staged: 0
       - path: Library
         label: Library
         level: 0
         isFolder: 1
         isContainer: 0
-        isCollapsed: 0
+        isCollapsed: 1
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
@@ -1616,7 +1253,7 @@ MonoBehaviour:
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -1628,13 +1265,31 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
+      - path: Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorInstance.json
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 1
+          staged: 0
       - path: Library\gfu
         label: gfu
         level: 1
         isFolder: 1
         isContainer: 0
         isCollapsed: 1
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -1736,24 +1391,6 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Library\gfu\cache\gituser.yaml
-        label: gituser.yaml
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 1
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Library\gfu\cache\gituser.yaml
-          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
-          projectPath: Library\gfu\cache\gituser.yaml
-          originalPath: 
-          status: 3
-          staged: 0
       - path: Library\gfu\cache\repoinfo.yaml
         label: repoinfo.yaml
         level: 3
@@ -1778,7 +1415,7 @@ MonoBehaviour:
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -1789,6 +1426,42 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Library\metadata\2a
+        label: 2a
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+        label: 2ab5ccb811371e34d8a03c663d0cbb3b
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+          projectPath: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+          originalPath: 
+          status: 3
           staged: 0
       - path: Library\metadata\d0
         label: d0
@@ -1796,7 +1469,7 @@ MonoBehaviour:
         isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -1808,48 +1481,84 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
-        label: d0e7ce0ebcf430d44b02240993a5edf1
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        label: d04a184b1e80fac46971ac9bb2e59fdd
         level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
-          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
-          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
           originalPath: 
-          status: 1
+          status: 3
           staged: 0
-      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
-        label: d0e7ce0ebcf430d44b02240993a5edf1.info
-        level: 3
-        isFolder: 0
+      - path: Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
-          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
-          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          status: 1
+          status: 0
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        label: Assembly-CSharp.dll.mdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        label: shadercompiler-UnityShaderCompiler.exe0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
           staged: 0
       - path: Temp
         label: Temp
         level: 0
         isFolder: 1
         isContainer: 0
-        isCollapsed: 0
+        isCollapsed: 1
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
@@ -1861,6 +1570,42 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           status: 0
+          staged: 0
+      - path: Temp\__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\__Backupscenes\0.backup
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          status: 5
           staged: 0
       - path: Temp\UnityLockfile
         label: UnityLockfile
@@ -1868,7 +1613,7 @@ MonoBehaviour:
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 1
         checkState: 0
@@ -1880,85 +1625,289 @@ MonoBehaviour:
           originalPath: 
           status: 3
           staged: 0
-      - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
-        label: UnityTempFile-d737696d387fdaf448244cebb039e88a
+      - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        label: UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
         level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        label: UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        label: UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        label: UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        label: UnityTempFile-35168c164ff1968419792223745a83a9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        label: UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        label: UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        label: UnityTempFile-6644b59051b55d9418434b79440cc007
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        label: UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        label: UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+        label: UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+          projectPath: Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        label: UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+        label: UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+          projectPath: Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        label: UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          originalPath: 
+          status: 5
+          staged: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
-          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
-          projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          status: 5
-          staged: 0
-      selectedNode:
-        path: Assets\Sprites\SawBlade.png
-        label: SawBlade.png
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Sprites\SawBlade.png
-          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
-          projectPath: Assets\Sprites\SawBlade.png
-          originalPath: 
-          status: 1
+          status: 0
           staged: 0
     gitStatusEntries:
-    - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
-      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
-      projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
-      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
-      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Sprites\SawBlade.png
-      fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
-      projectPath: Assets\Sprites\SawBlade.png
-      originalPath: 
-      status: 1
-      staged: 0
-    - path: Assets\Sprites\SawBlade.png.meta
-      fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
-      projectPath: Assets\Sprites\SawBlade.png.meta
-      originalPath: 
-      status: 1
-      staged: 0
     - path: Library\assetDatabase3
       fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
       projectPath: Library\assetDatabase3
       originalPath: 
       status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 1
       staged: 0
     - path: Library\gfu\cache\branches.yaml
       fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
@@ -1984,29 +1933,41 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\gfu\cache\gituser.yaml
-      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
-      projectPath: Library\gfu\cache\gituser.yaml
-      originalPath: 
-      status: 3
-      staged: 0
     - path: Library\gfu\cache\repoinfo.yaml
       fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
       projectPath: Library\gfu\cache\repoinfo.yaml
       originalPath: 
       status: 3
       staged: 0
-    - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
-      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
-      projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+    - path: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+      projectPath: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
       originalPath: 
-      status: 1
+      status: 3
       staged: 0
-    - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
-      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
-      projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+    - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+      projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
       originalPath: 
-      status: 1
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Temp\__Backupscenes\0.backup
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+      projectPath: Temp\__Backupscenes\0.backup
+      originalPath: 
+      status: 5
       staged: 0
     - path: Temp\UnityLockfile
       fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityLockfile
@@ -2014,28 +1975,586 @@ MonoBehaviour:
       originalPath: 
       status: 3
       staged: 0
-    - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
-      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
-      projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+    - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+      projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
       originalPath: 
       status: 5
       staged: 0
-    changedFilesText: 17 changed files
+    - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+      projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+      projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+      projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+      projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+      projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+      projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+      projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+      projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+      projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+      projectPath: Temp\UnityTempFile-861e12df138651f45b7fbd15b27d3ab7
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+      projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+      originalPath: 
+      status: 5
+      staged: 0
+    - path: Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+      projectPath: Temp\UnityTempFile-ace197dc0d9a75240a6612fd412bd6cd
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+      fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+      projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+      originalPath: 
+      status: 5
+      staged: 0
+    changedFilesText: 27 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2018-05-19T15:13:44.403+01:00
+      updatedTimeString: 2018-05-19T18:33:32.557+01:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2018-05-19T18:01:25.735+01:00
+      updatedTimeString: 2018-05-19T18:33:34.866+01:00
       cacheType: 5
     lastLocksChangedEvent:
       updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 6
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: d81ee3fb406ac4af72fbfa7f7fe6e2384be5153a
+        mergeA: 
+        mergeB: 
+        authorName: funkYzWo
+        authorEmail: angelkozlev@gmail.com
+        commitEmail: angelkozlev@gmail.com
+        commitName: funkYzWo
+        summary: 0.3
+        description: 0.3
+        timeString: 2018-05-19T18:14:41.000+01:00
+        commitTimeString: 2018-05-19T18:14:41.000+01:00
+        changes:
+        - path: .vs\CI236-Game\v15\.suo
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\.suo
+          projectPath: .vs\CI236-Game\v15\.suo
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assembly-CSharp.csproj
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Animations\SawBlade.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade.meta
+          projectPath: Assets\Animations\SawBlade.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBlade.controller
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller
+          projectPath: Assets\Animations\SawBlade\SawBlade.controller
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBlade.controller.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller.meta
+          projectPath: Assets\Animations\SawBlade\SawBlade.controller.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBladeLeft.anim
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim
+          projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBladeRight.anim
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim
+          projectPath: Assets\Animations\SawBlade\SawBladeRight.anim
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          projectPath: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\FirstSave.unity
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\FirstSave.unity
+          projectPath: Assets\FirstSave.unity
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Assets\Prefabs\Bullet.prefab
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab
+          projectPath: Assets\Prefabs\Bullet.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Prefabs\Bullet.prefab.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab.meta
+          projectPath: Assets\Prefabs\Bullet.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\BulletBehaviour.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs
+          projectPath: Assets\Scripts\BulletBehaviour.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\BulletBehaviour.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs.meta
+          projectPath: Assets\Scripts\BulletBehaviour.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\PlayerGun.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs
+          projectPath: Assets\Scripts\PlayerGun.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\PlayerGun.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs.meta
+          projectPath: Assets\Scripts\PlayerGun.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\SawBlade.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs
+          projectPath: Assets\Scripts\SawBlade.cs
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Scripts\SawBlade.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs.meta
+          projectPath: Assets\Scripts\SawBlade.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Sprites\Bullet.png
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png
+          projectPath: Assets\Sprites\Bullet.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Sprites\Bullet.png.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png.meta
+          projectPath: Assets\Sprites\Bullet.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Sprites\SawBlade.png
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
+          projectPath: Assets\Sprites\SawBlade.png
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\Sprites\SawBlade.png.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
+          projectPath: Assets\Sprites\SawBlade.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\CurrentLayout.dwlt
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\CurrentMaximizeLayout.dwlt
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentMaximizeLayout.dwlt
+          projectPath: Library\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\EditorInstance.json
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Library\InspectorExpandedItems.asset
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\assetDatabase3
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\expandedItems
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\branches.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+          projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gitlog.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+          projectPath: Library\gfu\cache\gitlog.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gitstatusentries.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gittrackingstatus.yaml
+          projectPath: Library\gfu\cache\gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\gituser.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
+          projectPath: Library\gfu\cache\gituser.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\gfu\cache\repoinfo.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\54\545b205fffba159409dd0822f05f3492
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492
+          projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\98\98119bac122044144b11f220ba631d04
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04
+          projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\ca\ca56012e8cbff064594223460c615741
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741
+          projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          originalPath: 
+          status: 5
+          staged: 0
+        - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Temp\__Backupscenes\0.backup
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          status: 3
+          staged: 0
+        - path: obj\Debug\build.force
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\build.force
+          projectPath: obj\Debug\build.force
+          originalPath: 
+          status: 4
+          staged: 0
       - commitID: aa23eb97c8ab0b581a3adb8aedaf5029ece86475
         mergeA: 
         mergeB: 
@@ -12288,32 +12807,968 @@ MonoBehaviour:
       statusAhead: 0
       selectedIndex: 0
     selectedEntry:
-      commitID: aa23eb97c8ab0b581a3adb8aedaf5029ece86475
+      commitID: d81ee3fb406ac4af72fbfa7f7fe6e2384be5153a
       mergeA: 
       mergeB: 
       authorName: funkYzWo
       authorEmail: angelkozlev@gmail.com
       commitEmail: angelkozlev@gmail.com
       commitName: funkYzWo
-      summary: a
-      description: a
-      timeString: 2018-05-19T15:12:13.000+01:00
-      commitTimeString: 2018-05-19T15:12:13.000+01:00
+      summary: 0.3
+      description: 0.3
+      timeString: 2018-05-19T18:14:41.000+01:00
+      commitTimeString: 2018-05-19T18:14:41.000+01:00
       changes:
-      - path: ProjectSettings\PresetManager.asset
-        fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\PresetManager.asset
-        projectPath: ProjectSettings\PresetManager.asset
-        originalPath: 
-        status: 4
-        staged: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\ProjectVersion.txt
-        projectPath: ProjectSettings\ProjectVersion.txt
+      - path: .vs\CI236-Game\v15\.suo
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\.suo
+        projectPath: .vs\CI236-Game\v15\.suo
         originalPath: 
         status: 3
         staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Animations\SawBlade.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade.meta
+        projectPath: Assets\Animations\SawBlade.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller
+        projectPath: Assets\Animations\SawBlade\SawBlade.controller
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller.meta
+        projectPath: Assets\Animations\SawBlade\SawBlade.controller.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim
+        projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim
+        projectPath: Assets\Animations\SawBlade\SawBladeRight.anim
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        projectPath: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\FirstSave.unity
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\FirstSave.unity
+        projectPath: Assets\FirstSave.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Bullet.prefab
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab
+        projectPath: Assets\Prefabs\Bullet.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Prefabs\Bullet.prefab.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab.meta
+        projectPath: Assets\Prefabs\Bullet.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs
+        projectPath: Assets\Scripts\BulletBehaviour.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs.meta
+        projectPath: Assets\Scripts\BulletBehaviour.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\PlayerGun.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs
+        projectPath: Assets\Scripts\PlayerGun.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\PlayerGun.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs.meta
+        projectPath: Assets\Scripts\PlayerGun.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SawBlade.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs
+        projectPath: Assets\Scripts\SawBlade.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SawBlade.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs.meta
+        projectPath: Assets\Scripts\SawBlade.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\Bullet.png
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png
+        projectPath: Assets\Sprites\Bullet.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\Bullet.png.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png.meta
+        projectPath: Assets\Sprites\Bullet.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\SawBlade.png
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
+        projectPath: Assets\Sprites\SawBlade.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\SawBlade.png.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
+        projectPath: Assets\Sprites\SawBlade.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentMaximizeLayout.dwlt
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentMaximizeLayout.dwlt
+        projectPath: Library\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\EditorInstance.json
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+        projectPath: Library\EditorInstance.json
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\expandedItems
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\branches.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+        projectPath: Library\gfu\cache\branches.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitlog.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+        projectPath: Library\gfu\cache\gitlog.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+        projectPath: Library\gfu\cache\gitstatusentries.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gittrackingstatus.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gittrackingstatus.yaml
+        projectPath: Library\gfu\cache\gittrackingstatus.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gituser.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
+        projectPath: Library\gfu\cache\gituser.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+        projectPath: Library\gfu\cache\repoinfo.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492
+        projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04
+        projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741
+        projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\__Backupscenes\0.backup
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+        projectPath: Temp\__Backupscenes\0.backup
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\build.force
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\build.force
+        projectPath: obj\Debug\build.force
+        originalPath: 
+        status: 4
+        staged: 0
     detailsScroll: {x: 0, y: 0}
     logEntries:
+    - commitID: d81ee3fb406ac4af72fbfa7f7fe6e2384be5153a
+      mergeA: 
+      mergeB: 
+      authorName: funkYzWo
+      authorEmail: angelkozlev@gmail.com
+      commitEmail: angelkozlev@gmail.com
+      commitName: funkYzWo
+      summary: 0.3
+      description: 0.3
+      timeString: 2018-05-19T18:14:41.000+01:00
+      commitTimeString: 2018-05-19T18:14:41.000+01:00
+      changes:
+      - path: .vs\CI236-Game\v15\.suo
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\.suo
+        projectPath: .vs\CI236-Game\v15\.suo
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assembly-CSharp.csproj
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assembly-CSharp.csproj
+        projectPath: Assembly-CSharp.csproj
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Animations\SawBlade.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade.meta
+        projectPath: Assets\Animations\SawBlade.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller
+        projectPath: Assets\Animations\SawBlade\SawBlade.controller
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller.meta
+        projectPath: Assets\Animations\SawBlade\SawBlade.controller.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim
+        projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim
+        projectPath: Assets\Animations\SawBlade\SawBladeRight.anim
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        projectPath: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\FirstSave.unity
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\FirstSave.unity
+        projectPath: Assets\FirstSave.unity
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Assets\Prefabs\Bullet.prefab
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab
+        projectPath: Assets\Prefabs\Bullet.prefab
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Prefabs\Bullet.prefab.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab.meta
+        projectPath: Assets\Prefabs\Bullet.prefab.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs
+        projectPath: Assets\Scripts\BulletBehaviour.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs.meta
+        projectPath: Assets\Scripts\BulletBehaviour.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\PlayerGun.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs
+        projectPath: Assets\Scripts\PlayerGun.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\PlayerGun.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs.meta
+        projectPath: Assets\Scripts\PlayerGun.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SawBlade.cs
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs
+        projectPath: Assets\Scripts\SawBlade.cs
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Scripts\SawBlade.cs.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs.meta
+        projectPath: Assets\Scripts\SawBlade.cs.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\Bullet.png
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png
+        projectPath: Assets\Sprites\Bullet.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\Bullet.png.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png.meta
+        projectPath: Assets\Sprites\Bullet.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\SawBlade.png
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
+        projectPath: Assets\Sprites\SawBlade.png
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\Sprites\SawBlade.png.meta
+        fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
+        projectPath: Assets\Sprites\SawBlade.png.meta
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\CurrentLayout.dwlt
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentLayout.dwlt
+        projectPath: Library\CurrentLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\CurrentMaximizeLayout.dwlt
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentMaximizeLayout.dwlt
+        projectPath: Library\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\EditorInstance.json
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+        projectPath: Library\EditorInstance.json
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\InspectorExpandedItems.asset
+        projectPath: Library\InspectorExpandedItems.asset
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\assetDatabase3
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
+        projectPath: Library\assetDatabase3
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\expandedItems
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\expandedItems
+        projectPath: Library\expandedItems
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\branches.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+        projectPath: Library\gfu\cache\branches.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitlog.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+        projectPath: Library\gfu\cache\gitlog.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+        projectPath: Library\gfu\cache\gitstatusentries.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gittrackingstatus.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gittrackingstatus.yaml
+        projectPath: Library\gfu\cache\gittrackingstatus.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\gituser.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
+        projectPath: Library\gfu\cache\gituser.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+        projectPath: Library\gfu\cache\repoinfo.yaml
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492
+        projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04
+        projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741
+        projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+        projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        originalPath: 
+        status: 5
+        staged: 0
+      - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Temp\__Backupscenes\0.backup
+        fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+        projectPath: Temp\__Backupscenes\0.backup
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        originalPath: 
+        status: 3
+        staged: 0
+      - path: obj\Debug\build.force
+        fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\build.force
+        projectPath: obj\Debug\build.force
+        originalPath: 
+        status: 4
+        staged: 0
     - commitID: aa23eb97c8ab0b581a3adb8aedaf5029ece86475
       mergeA: 
       mergeB: 
@@ -22570,15 +24025,547 @@ MonoBehaviour:
         values: []
       folders:
         keys:
-        - ProjectSettings
+        - .vs
+        - .vs\CI236-Game
+        - .vs\CI236-Game\v15
+        - .vs\CI236-Game\v15\Server
+        - .vs\CI236-Game\v15\Server\sqlite3
+        - Assets
+        - Assets\Animations
+        - Assets\Animations\SawBlade
+        - Assets\Prefabs
+        - Assets\Scripts
+        - Assets\Sprites
+        - Library
+        - Library\ScriptAssemblies
+        - Library\gfu
+        - Library\gfu\cache
+        - Library\metadata
+        - Library\metadata\37
+        - Library\metadata\3e
+        - Library\metadata\54
+        - Library\metadata\61
+        - Library\metadata\98
+        - Library\metadata\b5
+        - Library\metadata\ca
+        - Library\metadata\d0
+        - Library\metadata\ee
+        - Temp
+        - Temp\__Backupscenes
+        - obj
+        - obj\Debug
         values:
-        - path: ProjectSettings
-          label: ProjectSettings
+        - path: .vs
+          label: .vs
           level: 0
           isFolder: 1
           isContainer: 0
-          isCollapsed: 0
+          isCollapsed: 1
           isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs\CI236-Game
+          label: CI236-Game
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs\CI236-Game\v15
+          label: v15
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs\CI236-Game\v15\Server
+          label: Server
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: .vs\CI236-Game\v15\Server\sqlite3
+          label: sqlite3
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Animations
+          label: Animations
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Animations\SawBlade
+          label: SawBlade
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Prefabs
+          label: Prefabs
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Sprites
+          label: Sprites
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library
+          label: Library
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\ScriptAssemblies
+          label: ScriptAssemblies
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\gfu
+          label: gfu
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\gfu\cache
+          label: cache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata
+          label: metadata
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\37
+          label: 37
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\3e
+          label: 3e
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\54
+          label: 54
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\61
+          label: 61
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\98
+          label: 98
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\b5
+          label: b5
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\ca
+          label: ca
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\d0
+          label: d0
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Library\metadata\ee
+          label: ee
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp
+          label: Temp
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Temp\__Backupscenes
+          label: __Backupscenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj
+          label: obj
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 1
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: obj\Debug
+          label: Debug
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 1
           isActive: 0
           treeIsCheckable: 0
           checkState: 0
@@ -22618,12 +24605,12 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: ProjectSettings
-        label: ProjectSettings
+      - path: .vs
+        label: .vs
         level: 0
         isFolder: 1
         isContainer: 0
-        isCollapsed: 0
+        isCollapsed: 1
         isHidden: 0
         isActive: 0
         treeIsCheckable: 0
@@ -22636,27 +24623,171 @@ MonoBehaviour:
           originalPath: 
           status: 0
           staged: 0
-      - path: ProjectSettings\PresetManager.asset
-        label: PresetManager.asset
+      - path: .vs\CI236-Game
+        label: CI236-Game
         level: 1
-        isFolder: 0
+        isFolder: 1
         isContainer: 0
         isCollapsed: 0
-        isHidden: 0
+        isHidden: 1
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\PresetManager.asset
-          fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\PresetManager.asset
-          projectPath: ProjectSettings\PresetManager.asset
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs\CI236-Game\v15
+        label: v15
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs\CI236-Game\v15\.suo
+        label: .suo
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\CI236-Game\v15\.suo
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\.suo
+          projectPath: .vs\CI236-Game\v15\.suo
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: .vs\CI236-Game\v15\Server
+        label: Server
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3
+        label: sqlite3
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+        label: db.lock
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\CI236-Game\v15\Server\sqlite3\db.lock
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\db.lock
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\db.lock
           originalPath: 
           status: 4
           staged: 0
-      - path: ProjectSettings\ProjectVersion.txt
-        label: ProjectVersion.txt
-        level: 1
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+        label: storage.ide
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+        label: storage.ide-shm
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+        label: storage.ide-wal
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assembly-CSharp.csproj
+        label: Assembly-CSharp.csproj
+        level: 0
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -22666,11 +24797,1739 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: ProjectSettings\ProjectVersion.txt
-          fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\ProjectVersion.txt
-          projectPath: ProjectSettings\ProjectVersion.txt
+          path: Assembly-CSharp.csproj
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assembly-CSharp.csproj
+          projectPath: Assembly-CSharp.csproj
           originalPath: 
           status: 3
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Animations
+        label: Animations
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Animations\SawBlade.meta
+        label: SawBlade.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade.meta
+          projectPath: Assets\Animations\SawBlade.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade
+        label: SawBlade
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller
+        label: SawBlade.controller
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBlade.controller
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller
+          projectPath: Assets\Animations\SawBlade\SawBlade.controller
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBlade.controller.meta
+        label: SawBlade.controller.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBlade.controller.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBlade.controller.meta
+          projectPath: Assets\Animations\SawBlade\SawBlade.controller.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim
+        label: SawBladeLeft.anim
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBladeLeft.anim
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim
+          projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+        label: SawBladeLeft.anim.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          projectPath: Assets\Animations\SawBlade\SawBladeLeft.anim.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim
+        label: SawBladeRight.anim
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBladeRight.anim
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim
+          projectPath: Assets\Animations\SawBlade\SawBladeRight.anim
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+        label: SawBladeRight.anim.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          projectPath: Assets\Animations\SawBlade\SawBladeRight.anim.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\FirstSave.unity
+        label: FirstSave.unity
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\FirstSave.unity
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\FirstSave.unity
+          projectPath: Assets\FirstSave.unity
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Assets\Prefabs
+        label: Prefabs
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Prefabs\Bullet.prefab
+        label: Bullet.prefab
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Bullet.prefab
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab
+          projectPath: Assets\Prefabs\Bullet.prefab
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Prefabs\Bullet.prefab.meta
+        label: Bullet.prefab.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Prefabs\Bullet.prefab.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Prefabs\Bullet.prefab.meta
+          projectPath: Assets\Prefabs\Bullet.prefab.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs
+        label: BulletBehaviour.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\BulletBehaviour.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs
+          projectPath: Assets\Scripts\BulletBehaviour.cs
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts\BulletBehaviour.cs.meta
+        label: BulletBehaviour.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\BulletBehaviour.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\BulletBehaviour.cs.meta
+          projectPath: Assets\Scripts\BulletBehaviour.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts\PlayerGun.cs
+        label: PlayerGun.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerGun.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs
+          projectPath: Assets\Scripts\PlayerGun.cs
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts\PlayerGun.cs.meta
+        label: PlayerGun.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\PlayerGun.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\PlayerGun.cs.meta
+          projectPath: Assets\Scripts\PlayerGun.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts\SawBlade.cs
+        label: SawBlade.cs
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\SawBlade.cs
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs
+          projectPath: Assets\Scripts\SawBlade.cs
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Scripts\SawBlade.cs.meta
+        label: SawBlade.cs.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\SawBlade.cs.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Scripts\SawBlade.cs.meta
+          projectPath: Assets\Scripts\SawBlade.cs.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Sprites
+        label: Sprites
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Sprites\Bullet.png
+        label: Bullet.png
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Bullet.png
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png
+          projectPath: Assets\Sprites\Bullet.png
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Sprites\Bullet.png.meta
+        label: Bullet.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\Bullet.png.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\Bullet.png.meta
+          projectPath: Assets\Sprites\Bullet.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Sprites\SawBlade.png
+        label: SawBlade.png
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\SawBlade.png
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png
+          projectPath: Assets\Sprites\SawBlade.png
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets\Sprites\SawBlade.png.meta
+        label: SawBlade.png.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Sprites\SawBlade.png.meta
+          fullPath: D:\shano\CI236-Game\CI236-Game\Assets\Sprites\SawBlade.png.meta
+          projectPath: Assets\Sprites\SawBlade.png.meta
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library
+        label: Library
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\CurrentLayout.dwlt
+        label: CurrentLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentLayout.dwlt
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentLayout.dwlt
+          projectPath: Library\CurrentLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\CurrentMaximizeLayout.dwlt
+        label: CurrentMaximizeLayout.dwlt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\CurrentMaximizeLayout.dwlt
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentMaximizeLayout.dwlt
+          projectPath: Library\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\EditorInstance.json
+        label: EditorInstance.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\EditorInstance.json
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+          projectPath: Library\EditorInstance.json
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Library\InspectorExpandedItems.asset
+        label: InspectorExpandedItems.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\InspectorExpandedItems.asset
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\InspectorExpandedItems.asset
+          projectPath: Library\InspectorExpandedItems.asset
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies
+        label: ScriptAssemblies
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+        label: Assembly-CSharp.dll.mdb
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\assetDatabase3
+        label: assetDatabase3
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\assetDatabase3
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
+          projectPath: Library\assetDatabase3
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\expandedItems
+        label: expandedItems
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\expandedItems
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\expandedItems
+          projectPath: Library\expandedItems
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu
+        label: gfu
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\gfu\cache
+        label: cache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\gfu\cache\branches.yaml
+        label: branches.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\branches.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+          projectPath: Library\gfu\cache\branches.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gitlog.yaml
+        label: gitlog.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitlog.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+          projectPath: Library\gfu\cache\gitlog.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gitstatusentries.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+          projectPath: Library\gfu\cache\gitstatusentries.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gittrackingstatus.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gittrackingstatus.yaml
+          projectPath: Library\gfu\cache\gittrackingstatus.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\gituser.yaml
+        label: gituser.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\gituser.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
+          projectPath: Library\gfu\cache\gituser.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\gfu\cache\repoinfo.yaml
+        label: repoinfo.yaml
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\gfu\cache\repoinfo.yaml
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+          projectPath: Library\gfu\cache\repoinfo.yaml
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Library\metadata
+        label: metadata
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\37
+        label: 37
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+        label: 37db8dcf9e241fa40bd66d0cf2d72555
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+        label: 37db8dcf9e241fa40bd66d0cf2d72555.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          projectPath: Library\metadata\37\37db8dcf9e241fa40bd66d0cf2d72555.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\3e
+        label: 3e
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+        label: 3e4d61486fa62dc49a69063f5ddd508c
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+        label: 3e4d61486fa62dc49a69063f5ddd508c.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          projectPath: Library\metadata\3e\3e4d61486fa62dc49a69063f5ddd508c.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\54
+        label: 54
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492
+        label: 545b205fffba159409dd0822f05f3492
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\54\545b205fffba159409dd0822f05f3492
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492
+          projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+        label: 545b205fffba159409dd0822f05f3492.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          projectPath: Library\metadata\54\545b205fffba159409dd0822f05f3492.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\61
+        label: 61
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+        label: 61cde35f0a198dd459e2e34b84b824ee
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+        label: 61cde35f0a198dd459e2e34b84b824ee.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          projectPath: Library\metadata\61\61cde35f0a198dd459e2e34b84b824ee.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\98
+        label: 98
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04
+        label: 98119bac122044144b11f220ba631d04
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\98\98119bac122044144b11f220ba631d04
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04
+          projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+        label: 98119bac122044144b11f220ba631d04.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          projectPath: Library\metadata\98\98119bac122044144b11f220ba631d04.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\b5
+        label: b5
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+        label: b59428c2bde9db24ab25c8dbc10493c4
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+        label: b59428c2bde9db24ab25c8dbc10493c4.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          projectPath: Library\metadata\b5\b59428c2bde9db24ab25c8dbc10493c4.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\ca
+        label: ca
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741
+        label: ca56012e8cbff064594223460c615741
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\ca\ca56012e8cbff064594223460c615741
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741
+          projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+        label: ca56012e8cbff064594223460c615741.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          projectPath: Library\metadata\ca\ca56012e8cbff064594223460c615741.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\d0
+        label: d0
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+        label: d04a184b1e80fac46971ac9bb2e59fdd
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+        label: d04a184b1e80fac46971ac9bb2e59fdd.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+        label: d0e7ce0ebcf430d44b02240993a5edf1
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+        label: d0e7ce0ebcf430d44b02240993a5edf1.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          projectPath: Library\metadata\d0\d0e7ce0ebcf430d44b02240993a5edf1.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\ee
+        label: ee
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+        label: ee7262c5ad03a014591ddddd7571df25
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+        label: ee7262c5ad03a014591ddddd7571df25.info
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25.info
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+        label: shadercompiler-UnityShaderCompiler.exe0.log
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+          projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: Temp
+        label: Temp
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        label: UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          projectPath: Temp\UnityTempFile-0c619160e89961d44beafcfbf86ec0f8
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        label: UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          projectPath: Temp\UnityTempFile-0f198e72b66cdc64494ece30e3e3b1d9
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        label: UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          projectPath: Temp\UnityTempFile-107aa3340c7b3cb4380e737d4651d09f
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        label: UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          projectPath: Temp\UnityTempFile-23058b4f675f0cd4894ee8d4710079d2
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+        label: UnityTempFile-35168c164ff1968419792223745a83a9
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          projectPath: Temp\UnityTempFile-35168c164ff1968419792223745a83a9
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        label: UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          projectPath: Temp\UnityTempFile-4323e0bbca4f52e4bb1d5b59fc173716
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        label: UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          projectPath: Temp\UnityTempFile-6470aa884819ad943985ea5cd2624f2f
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+        label: UnityTempFile-6644b59051b55d9418434b79440cc007
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          projectPath: Temp\UnityTempFile-6644b59051b55d9418434b79440cc007
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        label: UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          projectPath: Temp\UnityTempFile-73f932fb5165e16408cf5393a2e7e5fc
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        label: UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          projectPath: Temp\UnityTempFile-78c88468d81515d4b9f93312dd82a3ac
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        label: UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          projectPath: Temp\UnityTempFile-969224bde6f9f1a4ea5182bacfee291d
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+        label: UnityTempFile-d737696d387fdaf448244cebb039e88a
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          projectPath: Temp\UnityTempFile-d737696d387fdaf448244cebb039e88a
+          originalPath: 
+          status: 5
+          staged: 0
+      - path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        label: UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          projectPath: Temp\UnityTempFile-f3c8a54d2b418d545a2cb94a0ca8ed05
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Temp\__Backupscenes
+        label: __Backupscenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Temp\__Backupscenes\0.backup
+        label: 0.backup
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Temp\__Backupscenes\0.backup
+          fullPath: D:\shano\CI236-Game\CI236-Game\Temp\__Backupscenes\0.backup
+          projectPath: Temp\__Backupscenes\0.backup
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj
+        label: obj
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 1
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj\Debug
+        label: Debug
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        label: Assembly-CSharp-Editor.csprojAssemblyReference.cache
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+        label: Assembly-CSharp.csproj.CoreCompileInputs.cache
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+          originalPath: 
+          status: 3
+          staged: 0
+      - path: obj\Debug\build.force
+        label: build.force
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 1
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: obj\Debug\build.force
+          fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\build.force
+          projectPath: obj\Debug\build.force
+          originalPath: 
+          status: 4
           staged: 0
       selectedNode:
         path: 
@@ -22692,10 +26551,10 @@ MonoBehaviour:
           status: 0
           staged: 0
     lastLogChangedEvent:
-      updatedTimeString: 2018-05-19T15:13:45.338+01:00
+      updatedTimeString: 2018-05-21T14:58:02.606+01:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2018-05-19T15:13:46.395+01:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 4
   settingsView:
     gitPathView:
@@ -22727,7 +26586,7 @@ MonoBehaviour:
       newGitEmail: angelkozlev@gmail.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 0001-01-01T00:00:00.000+00:00
+        updatedTimeString: 2018-05-19T18:06:01.971+01:00
         cacheType: 7
     webTimeout: 3000
   hasRemote: 1
@@ -22746,11 +26605,11 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the Develop remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2018-05-19T15:13:44.403+01:00
+    updatedTimeString: 2018-05-19T18:33:32.557+01:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2018-05-19T15:13:46.395+01:00
+    updatedTimeString: 2018-05-19T18:33:33.493+01:00
     cacheType: 4
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2018-05-19T16:01:55.972+01:00
+    updatedTimeString: 2018-05-19T19:55:40.910+01:00
     cacheType: 5
