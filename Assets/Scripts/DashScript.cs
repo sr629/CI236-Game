@@ -19,6 +19,11 @@ public class DashScript : MonoBehaviour {
 	}
     void FixedUpdate()
     {
+        if (this.gameObject==null)
+        {
+            return;
+        }
+
         if (isDashing)
         {
             rb.velocity = Vector2.zero;

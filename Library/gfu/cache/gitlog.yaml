@@ -12,9 +12,363 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-05-21T15:37:26.175+01:00
-  initializedAtString: 2018-05-19T18:22:44.912+01:00
+  lastUpdatedAtString: 2018-05-22T11:40:50.262+01:00
+  initializedAtString: 2018-05-21T21:10:23.502+01:00
   log:
+  - commitID: eca1c179ec00bbec4423b7d5c2e1e46f39818834
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: 0.3.1
+    description: 0.3.1
+    timeString: 2018-05-21T15:38:27.000+01:00
+    commitTimeString: 2018-05-21T15:38:27.000+01:00
+    changes:
+    - path: .vs\CI236-Game\v15\.suo
+      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\.suo
+      projectPath: .vs\CI236-Game\v15\.suo
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+      fullPath: D:\shano\CI236-Game\CI236-Game\.vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\CI236-Game\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 417722cdb1a5b417424edeae15a5565cd1089daf
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: 0.3.1
+    description: 0.3.1
+    timeString: 2018-05-21T15:38:18.000+01:00
+    commitTimeString: 2018-05-21T15:38:18.000+01:00
+    changes:
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\shano\CI236-Game\CI236-Game\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: e795339a647e5231c45afa59dd8702462964e423
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: 0.3.1
+    description: 0.3.1
+    timeString: 2018-05-21T15:38:08.000+01:00
+    commitTimeString: 2018-05-21T15:38:08.000+01:00
+    changes:
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: D:\shano\CI236-Game\CI236-Game\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 42f54d5e81af86f329b4073db873d9af3c1bd633
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: 0.3.1
+    description: 0.3.1
+    timeString: 2018-05-21T15:38:00.000+01:00
+    commitTimeString: 2018-05-21T15:38:00.000+01:00
+    changes:
+    - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: D:\shano\CI236-Game\CI236-Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: d3c6a5684df53dcb0160e11f7f6decf00f57bd19
+    mergeA: 
+    mergeB: 
+    authorName: funkYzWo
+    authorEmail: angelkozlev@gmail.com
+    commitEmail: angelkozlev@gmail.com
+    commitName: funkYzWo
+    summary: 0.3.1
+    description: 0.3.1
+    timeString: 2018-05-21T15:37:48.000+01:00
+    commitTimeString: 2018-05-21T15:37:48.000+01:00
+    changes:
+    - path: Library\CurrentMaximizeLayout.dwlt
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\CurrentMaximizeLayout.dwlt
+      projectPath: Library\CurrentMaximizeLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\EditorUserBuildSettings.asset
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\25\25c882482146c4a4abecae8839fa89db
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\25\25c882482146c4a4abecae8839fa89db
+      projectPath: Library\metadata\25\25c882482146c4a4abecae8839fa89db
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\25\25c882482146c4a4abecae8839fa89db.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\25\25c882482146c4a4abecae8839fa89db.info
+      projectPath: Library\metadata\25\25c882482146c4a4abecae8839fa89db.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+      projectPath: Library\metadata\2a\2ab5ccb811371e34d8a03c663d0cbb3b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\46\4624476a5fecdc140b7a16b89189fa3f
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\46\4624476a5fecdc140b7a16b89189fa3f
+      projectPath: Library\metadata\46\4624476a5fecdc140b7a16b89189fa3f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\49\4902844a802bae34ea5e2ec454491604
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\49\4902844a802bae34ea5e2ec454491604
+      projectPath: Library\metadata\49\4902844a802bae34ea5e2ec454491604
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13
+      projectPath: Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13.info
+      projectPath: Library\metadata\57\57392a69e17f44a4a9a7b1b7cddf6c13.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a
+      projectPath: Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a.info
+      projectPath: Library\metadata\6f\6f83df526cf09b84cb8e87bf9fd9b76a.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923
+      projectPath: Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923.info
+      projectPath: Library\metadata\70\709e9c70acf90f244a8feff3e7d3e923.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7a\7a256594ed3edb549ace8c33a5722244
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\7a\7a256594ed3edb549ace8c33a5722244
+      projectPath: Library\metadata\7a\7a256594ed3edb549ace8c33a5722244
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7a\7a256594ed3edb549ace8c33a5722244.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\7a\7a256594ed3edb549ace8c33a5722244.info
+      projectPath: Library\metadata\7a\7a256594ed3edb549ace8c33a5722244.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb
+      projectPath: Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb.info
+      projectPath: Library\metadata\7e\7e7d6931dd86f13489a6771409791dfb.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af
+      projectPath: Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af.info
+      projectPath: Library\metadata\9f\9f2ce77f34212e845a4c0080624cd1af.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c7\c721cf1e93b4af34bb5b5cad1537610b
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\c7\c721cf1e93b4af34bb5b5cad1537610b
+      projectPath: Library\metadata\c7\c721cf1e93b4af34bb5b5cad1537610b
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9
+      projectPath: Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9.info
+      projectPath: Library\metadata\c9\c9becaee14d85514aa3c11f184721ff9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+      projectPath: Library\metadata\d0\d04a184b1e80fac46971ac9bb2e59fdd
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc
+      projectPath: Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc.info
+      projectPath: Library\metadata\e0\e08a168cc25edbe42ba7a3d324501fbc.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+      projectPath: Library\metadata\ee\ee7262c5ad03a014591ddddd7571df25
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9
+      projectPath: Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9.info
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9.info
+      projectPath: Library\metadata\ef\ef1d552f779f67041a425a45e49f61a9.info
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\shano\CI236-Game\CI236-Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 35b7cce70018391925bce2196ccfac3457f26db6
     mergeA: 
     mergeB: 

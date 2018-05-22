@@ -7,20 +7,20 @@ public class GameMaster : MonoBehaviour {
     // Use this for initialization
     private GameMaster gm;
 	void Start () {
-        if (gm=null)
+        if (gm==null)
         {
             gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
         }
 	}
 
-    public Transform spawnPoint;
+    public GameObject spawnPoint;
     public int spawnDelay;
-    public Transform playerPrefab;
+    public GameObject playerPrefab;
 
     public IEnumerator RespawnPlayer()
     {
         yield return new WaitForSeconds(spawnDelay);
-        Instantiate(playerPrefab, spawnPoint);
+        Instantiate(playerPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
     }
 
     public void KillPlayer(GameObject player)

@@ -17,6 +17,9 @@ public class SawBlade : MonoBehaviour {
   
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        GameMaster gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+
+        gm.KillPlayer(collision.gameObject);
        // Destroy(collision.gameObject);
     }
 }

@@ -59,6 +59,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\DontGoThroughThings.cs" />
+    <Compile Include="Assets\FadeLoadScene.cs" />
+    <Compile Include="Assets\Objectpass.cs" />
     <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\DashScript.cs" />
@@ -103,6 +106,7 @@
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey.shader" />
     <None Include="Assets\Tiled2Unity\Shaders\shaDepthColorKey-Instanced.shader" />
     <None Include="Assets\Tiled2Unity\License.txt" />
+    <None Include="Assets\Tiled2Unity\Imported\LevelOne.tiled2unity.xml" />
     <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
