@@ -76,6 +76,7 @@ public class PlayerControl : MonoBehaviour {
 		anim.SetBool ("PlayerMoving", playerMoving);
 		anim.SetFloat ("LastMoveX", lastMove.x);
 		anim.SetFloat ("LastMoveY", lastMove.y);
+        
 	}
     
 }

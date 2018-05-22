@@ -9,11 +9,12 @@ public class PlayerGun : MonoBehaviour {
     public GameObject bulletPrefab;
     public Transform bulletSpawn;
     public float speed = 5.0f;
-    public int startingAmmo = 5;
-    public int ammo;
-    public int rechargeRate = 1;
-    private float timer;
-    public float timeBetweenShots = 0.3333f;
+    public int startingAmmo = 3;
+    public int ammo = 3;
+    public float rechargeRate = 1;
+    public float timeTillRecharge = 3;
+    private float timeFromLastFire;
+    public float timeBetweenShots;
     private float timestamp;
     private bool reloading;
 
@@ -30,6 +31,8 @@ public class PlayerGun : MonoBehaviour {
 
         if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time >= timestamp)
         {
+            timeFromLastFire = 0;
+
             Fire();
             //take away from ammo
             ammo -= 1;
@@ -37,7 +40,9 @@ public class PlayerGun : MonoBehaviour {
             timestamp = Time.time + timeBetweenShots;
         }
 
-       if (ammo != startingAmmo && !reloading)
+        timeFromLastFire += 1.0F * Time.deltaTime;
+
+        if (ammo != startingAmmo && !reloading && timeFromLastFire >= timeTillRecharge)
         {
             StartCoroutine(Recharge());
         }
@@ -75,7 +80,7 @@ public class PlayerGun : MonoBehaviour {
     IEnumerator Recharge()
     {
         reloading = true;
-        while (ammo < startingAmmo)
+        while (ammo < startingAmmo && timeFromLastFire >= timeTillRecharge)
         {
             ammo++;
             yield return new WaitForSeconds(rechargeRate);

@@ -8,6 +8,7 @@ public class BulletBehaviour : MonoBehaviour
 
     private float timer;
     public int bulletLife = 4;
+    public Transform explosionPrefab;
 
     // Use this for initialization
     void Start()
@@ -27,8 +28,12 @@ public class BulletBehaviour : MonoBehaviour
 
     }
 
-    void OnCollisionEnter()
+    void OnCollisionEnter(Collision collision)
     {
-        GameObject.Destroy(gameObject);
+        ContactPoint contact = collision.contacts[0];
+        Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+        Vector3 pos = contact.point;
+        Instantiate(explosionPrefab, pos, rot);
+        Destroy(gameObject);
     }
 }
