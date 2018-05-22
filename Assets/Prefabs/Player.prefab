@@ -115,7 +115,7 @@ MonoBehaviour:
   moveSpeed: 3
   dashAvailable: 1
   dashSpeed: 5
-  dashDistance: 3
+  dashDistance: 2.25
   dashMask:
     serializedVersion: 2
     m_Bits: 4294966523
