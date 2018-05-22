@@ -8,28 +8,44 @@ public class DashScript : MonoBehaviour {
     private Rigidbody2D rb;
     private Vector2 dashTarget;
     private float dashSpeed;
-    private bool isDashing;
-	void Start () {
-        rb = GetComponent<Rigidbody2D>(); 
-	}
+    public bool isDashing;
+    private Animator anim;
+
+    //Dash
+    List<GameObject> trailParts = new List<GameObject>();
+    public float rate = 0.2f;
+    public float ghostLife = 0.5f;
+    public float opacity = 0.5f;
+
+    //direction
+    private Vector2 endDirection;
+
+    void Start () {
+        rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-		
+        //anim.SetBool("Dashing", isDashing);
 	}
     void FixedUpdate()
     {
-        if (this.gameObject==null)
-        {
-            return;
-        }
-
+    	if (this.gameObject == null)
+    	{
+    		return;
+    	}
         if (isDashing)
         {
+            InvokeRepeating("SpawnTrailPart", 0, rate);
+
             rb.velocity = Vector2.zero;
             float distSqr = (dashTarget - new Vector2(transform.position.x, transform.position.y)).sqrMagnitude;
             if (distSqr < 0.1f)
             {
+                anim.SetFloat("DashDirectionX", endDirection.x);
+                anim.SetFloat("DashDirectionY", endDirection.y);
+
                 isDashing = false;
                 dashTarget = Vector2.zero;
             }
@@ -46,7 +62,10 @@ public class DashScript : MonoBehaviour {
     {
 
         isDashing = true;
-
+        anim.SetFloat("DashDirectionX", direction.x);
+        anim.SetFloat("DashDirectionY", direction.y);
+        anim.SetFloat("LastMove", direction.x);
+        anim.SetFloat("LastMove", direction.y);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, dashDistance, layerMask);
 
         if (hit)
@@ -60,5 +79,35 @@ public class DashScript : MonoBehaviour {
 
         dashSpeed = speed;
         rb.velocity = Vector2.zero;
+    }
+    void SpawnTrailPart()
+    {
+        if (isDashing) { 
+        GameObject trailPart = new GameObject();
+        SpriteRenderer trailPartRenderer = trailPart.AddComponent<SpriteRenderer>();
+        trailPartRenderer.sprite = GetComponent<SpriteRenderer>().sprite;
+        trailPart.transform.position = transform.position;
+        trailPart.transform.localScale = transform.localScale;
+
+            if (trailPartRenderer)
+            {
+                trailPartRenderer.sortingOrder = 0;
+                trailPartRenderer.sortingLayerName = "Player";
+            }
+
+            trailParts.Add(trailPart);
+
+        StartCoroutine(FadeTrailPart(trailPartRenderer));
+        Destroy(trailPart, ghostLife);
+        }
+    }
+
+    IEnumerator FadeTrailPart(SpriteRenderer trailPartRenderer)
+    {
+        Color color = trailPartRenderer.color;
+        color.a -= opacity;
+        trailPartRenderer.color = color;
+
+        yield return new WaitForEndOfFrame();
     }
 }

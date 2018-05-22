@@ -8,18 +8,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1666186674, guid: 2afa3ca079afc4ba7863cec8cb6fe165, type: 3}
+  m_Script: {fileID: 1666186674, guid: 25bc17849426248d19cfb1e4361ce962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-05-22T11:40:47.212+01:00
-  initializedAtString: 2018-05-22T11:40:47.192+01:00
+  lastUpdatedAtString: 2018-05-22T12:12:42.855+01:00
+  initializedAtString: 2018-05-22T12:01:06.164+01:00
   localBranches:
+  - name: BasicGameMechnics
+    tracking: origin/BasicGameMechnics
   - name: Develop
     tracking: origin/Develop
   - name: master
     tracking: origin/master
   remoteBranches:
+  - name: origin/BasicGameMechnics
+    tracking: '[None]'
   - name: origin/Develop
     tracking: '[None]'
   - name: origin/HEAD
@@ -34,9 +38,15 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - BasicGameMechnics
     - Develop
     - master
     values:
+    - name: BasicGameMechnics
+      remote:
+        name: origin
+        url: https://github.com/sr629/CI236-Game.git
+      trackingBranch: BasicGameMechnics
     - name: Develop
       remote:
         name: origin
@@ -52,10 +62,16 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
+      - BasicGameMechnics
       - Develop
       - HEAD
     subKeyValues:
     - Values:
+      - name: BasicGameMechnics
+        remote:
+          name: origin
+          url: https://github.com/sr629/CI236-Game.git
+        trackingBranch: 
       - name: Develop
         remote:
           name: origin

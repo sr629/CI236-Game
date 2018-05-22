@@ -11,9 +11,11 @@ public class GameMaster : MonoBehaviour {
         {
             gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
         }
+
+        spawnPoint = GameObject.FindGameObjectWithTag("Respawn");
 	}
 
-    public GameObject spawnPoint;
+    private GameObject spawnPoint;
     public int spawnDelay;
     public GameObject playerPrefab;
 
@@ -26,6 +28,13 @@ public class GameMaster : MonoBehaviour {
     public void KillPlayer(GameObject player)
     {
         Destroy(player.gameObject);
+        gm.StartCoroutine(gm.RespawnPlayer());
+    }
+
+    public IEnumerator KillWithDelay( GameObject player, float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        Destroy(player);
         gm.StartCoroutine(gm.RespawnPlayer());
     }
 }

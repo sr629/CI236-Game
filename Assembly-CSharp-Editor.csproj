@@ -315,33 +315,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="AsyncBridge.Net35">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Api">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Logging">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="GitHub.Unity">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Mono.Posix">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
-    </Reference>
-    <Reference Include="ReadOnlyCollectionsInterfaces">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="sfw.net">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/User/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
