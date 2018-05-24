@@ -2,34 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class triggerfall : MonoBehaviour {
+public class TriggerFall : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
-    public bool isdashing;
+    private DashScript dashScript;
+    private Rigidbody2D rb;
+    private PlayerControl script;
 
-    void Setup()
+    void Start()
     {
-
+        dashScript = GetComponent<DashScript>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
+        script = GetComponent<PlayerControl>();
     }
 
-    void OnTriggerStay2D(Collider2D col)
+    
+    private void OnTriggerStay2D(Collider2D col)
     {
-        DashScript dashScript = gameObject.GetComponent<DashScript>();
         
         if (dashScript.isDashing == false)
         {
-            if (col.gameObject.tag == "Pit")
+            if (col.gameObject.tag == "Pit" )
             {
 
-                gameObject.GetComponent<SpriteRenderer>().sortingOrder = 5;
-                gameObject.GetComponent<SpriteRenderer>().sortingLayerName = "Background";
-                gameObject.GetComponent<PlayerControl>().enabled = false;
-                gameObject.GetComponent<Rigidbody2D>().gravityScale = 5;
+                spriteRenderer.sortingOrder = 5;
+                spriteRenderer.sortingLayerName = "Background";
+                script.enabled = false;
+                rb.gravityScale = 1.5f;
                 //respawn
-                GameMaster gameMaster = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
-                gameMaster.KillWithDelay(this.gameObject, 0.5f);
+                //GameMaster gameMaster = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+                StartCoroutine(GameMaster.Instance.KillWithDelay(gameObject, 1));
             }
         }
     }
+ 
 }

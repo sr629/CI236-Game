@@ -7,11 +7,11 @@ public class CameraController : MonoBehaviour {
 	public GameObject followTarget;
 	private Vector3 targetPosition;
 	public float moveSpeed;
-    private bool cameraExists;
+    private static bool cameraExists;
 
     private float nextTimeToSearch = 0;
 	// Use this for initialization
-	void Start () {
+	/*void Start () {
 
         if (!cameraExists)
         {
@@ -19,10 +19,29 @@ public class CameraController : MonoBehaviour {
             DontDestroyOnLoad(transform.gameObject);
         }
         else Destroy(gameObject);
+    }*/
+    private CameraController Instance;
+    void Awake()
+    {
+        //Check if instance already exists
+        if (Instance == null)
+        {
+            //if not, set instance to this
+            Instance = this;
+        }
+        //If instance already exists and it's not this:
+        else if (Instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+
+        //Sets this to not be destroyed when reloading scene
+        DontDestroyOnLoad(gameObject);
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+        // Update is called once per frame
+        void Update () {
 
         if (followTarget==null)
         {
@@ -42,7 +61,7 @@ public class CameraController : MonoBehaviour {
             GameObject searchResult = GameObject.FindGameObjectWithTag("Player");
             if (searchResult != null)
                 followTarget = searchResult;
-            nextTimeToSearch = Time.time + 2;
+            nextTimeToSearch = Time.time + 1;
         }
     }
 }

@@ -55,7 +55,7 @@ public class PlayerGun : MonoBehaviour {
         //finding cursor position
         Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         //finding character position
-        Vector2 characterPos = new Vector2(transform.position.x, transform.position.y);
+        Vector2 characterPos = new Vector2(bulletSpawn.position.x, bulletSpawn.position.y);
 
 
         //calculating vector for direction

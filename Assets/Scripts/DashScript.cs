@@ -10,6 +10,7 @@ public class DashScript : MonoBehaviour {
     private float dashSpeed;
     public bool isDashing;
     private Animator anim;
+    private Collider2D pitCollider;
 
     //Dash
     List<GameObject> trailParts = new List<GameObject>();
@@ -23,6 +24,8 @@ public class DashScript : MonoBehaviour {
     void Start () {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        pitCollider = GameObject.FindGameObjectWithTag("Pit").GetComponent<Collider2D>();
+
     }
 	
 	// Update is called once per frame
@@ -47,6 +50,7 @@ public class DashScript : MonoBehaviour {
                 anim.SetFloat("DashDirectionY", endDirection.y);
 
                 isDashing = false;
+                if (pitCollider != null) pitCollider.isTrigger = false;
                 dashTarget = Vector2.zero;
             }
             else
@@ -62,12 +66,17 @@ public class DashScript : MonoBehaviour {
     {
 
         isDashing = true;
-        anim.SetFloat("DashDirectionX", direction.x);
-        anim.SetFloat("DashDirectionY", direction.y);
-        anim.SetFloat("LastMove", direction.x);
-        anim.SetFloat("LastMove", direction.y);
+       // anim.SetFloat("DashDirectionX", direction.x);
+       // anim.SetFloat("DashDirectionY", direction.y);
+       // anim.SetFloat("LastMove", direction.x);
+       // anim.SetFloat("LastMove", direction.y);
         RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, dashDistance, layerMask);
+        if (pitCollider != null)
+        {
+            pitCollider.isTrigger = true;
+        }
 
+        
         if (hit)
         {
             dashTarget = transform.position + (Vector3)((direction * dashDistance) * hit.fraction);

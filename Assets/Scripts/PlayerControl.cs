@@ -6,7 +6,7 @@ public class PlayerControl : MonoBehaviour {
 
 	public float moveSpeed;
 	private float currentMoveSpeed;
-    private bool playerExists;
+    private static PlayerControl instance;
 
 	private Animator anim;
 	private Rigidbody2D myRigidbody;
@@ -25,18 +25,38 @@ public class PlayerControl : MonoBehaviour {
 		myRigidbody = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator>();
 
-        if (!playerExists)
+       /* if (!playerExists)
         {
             playerExists = true;
             DontDestroyOnLoad(transform.gameObject);
         }
-        else Destroy(gameObject);
-
+        else Destroy(gameObject);*/
+        
        
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    void Awake()
+    {
+        //Check if instance already exists
+        if (instance == null)
+        {
+            //if not, set instance to this
+            instance = this;
+        }
+        //If instance already exists and it's not this:
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+
+        //Sets this to not be destroyed when reloading scene
+        DontDestroyOnLoad(gameObject);
+
+    }
+
+    // Update is called once per frame
+    void Update () {
 
 		playerMoving = false;
 		if (Input.GetAxisRaw ("Horizontal") > 0.5f || Input.GetAxisRaw ("Horizontal") < -0.5f ) 
