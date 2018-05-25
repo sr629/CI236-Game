@@ -26,16 +26,5 @@ public class TriggerEnemies : MonoBehaviour
         }
 
     }
-   /* IEnumerator Spawn()
-    {
 
-        while (true)
-        {
- 
-            foreach (GameObject go in enemy)
-            {
-                go.SetActive(true);
-            }
-        }
-    }*/
 }

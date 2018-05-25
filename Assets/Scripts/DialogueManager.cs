@@ -29,8 +29,6 @@ public class DialogueManager : MonoBehaviour {
     {
         animator.SetBool("IsOpen", true);
         player.GetComponent<PlayerControl>().enabled = false;
-        player.GetComponent<PlayerGun>().enabled = false;
-        player.GetComponent<DashScript>().enabled = false;
         player.GetComponent<Rigidbody2D>().velocity = new Vector2 (0, 0);
         player.GetComponent<Animator>().enabled = false;
         nameText.text = dialogue.name;
@@ -53,8 +51,6 @@ public class DialogueManager : MonoBehaviour {
         {
             EndDialogue();
             player.GetComponent<PlayerControl>().enabled = true;
-            player.GetComponent<PlayerGun>().enabled = true;
-            player.GetComponent<DashScript>().enabled = true;
             player.GetComponent<Animator>().enabled = true;
             
             return;

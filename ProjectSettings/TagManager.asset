@@ -11,6 +11,15 @@ TagManager:
   - Target
   - Module
   - NoBulletCollision
+  - explosion
+  - Bullet
+  - Guide
+  - SolutionBlocks
+  - CodeBlocks
+  - SawStatic
+  - MoveSaw
+  - Door2
+  - Door1
   layers:
   - Default
   - TransparentFX

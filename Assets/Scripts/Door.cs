@@ -18,18 +18,5 @@ public class Door : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (doorAnimator == null)
-        {
-            doorAnimator = GetComponent<Animator>();
-
-        }
-        if (switch1)
-        {
-            doorAnimator.SetBool("Opened", true);
-        }
-
-
-    }
+  
 }

@@ -14,25 +14,20 @@ public class PlayerControl : MonoBehaviour {
 	private bool playerMoving;
 	private Vector2 lastMove;
 
-	public bool dashAvailable;
 	public float dashSpeed;
 	public float dashDistance;
     public LayerMask dashMask;
+    private float lastDash;
 
+    private DashScript dashScript;
+    private PlayerGun gunScript;
 
 	// Use this for initialization
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody2D> ();
 		anim = GetComponent<Animator>();
-
-       /* if (!playerExists)
-        {
-            playerExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else Destroy(gameObject);*/
-        
-       
+        dashScript = GetComponent<DashScript>();
+        gunScript = GetComponent<PlayerGun>();
 	}
 
     void Awake()
@@ -91,12 +86,17 @@ public class PlayerControl : MonoBehaviour {
 		} else
 			currentMoveSpeed = moveSpeed;
 
-        if (Input.GetButtonDown("Jump") && dashAvailable)
+        if (Input.GetButtonDown("Jump") && Time.time - lastDash >= 0.5f)
         {
             Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 direction = target -  new Vector2(transform.position.x, transform.position.y);
-            DashScript dashScript = GetComponent<DashScript>();
             dashScript.Dash(dashDistance, dashSpeed, direction.normalized,dashMask);
+            lastDash = Time.time;
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            gunScript.Shoot();
         }
 
        

@@ -146,6 +146,14 @@ public class EnemyAI : MonoBehaviour {
             Destroy(expl, 1);
 
         }
+        if (other.gameObject.tag == "Bullet")
+        {
+            GameObject expl = Instantiate(explosion, other.transform.position, Quaternion.identity) as GameObject;
+            Destroy(gameObject);
+            GameMaster.Instance.KillPlayer(other.gameObject);
+            Destroy(expl, 1);
+
+        }
 
     }
 

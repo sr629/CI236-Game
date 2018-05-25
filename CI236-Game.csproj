@@ -422,6 +422,10 @@
     <Compile Include="Assets\Scripts\ChargeUi.cs" />
     <Compile Include="Assets\Scripts\Compiler.cs" />
     <Compile Include="Assets\Scripts\compilertrigger.cs" />
+    <Compile Include="Assets\Scripts\CompilerUI\CellScript.cs" />
+    <Compile Include="Assets\Scripts\CompilerUI\DragScript.cs" />
+    <Compile Include="Assets\Scripts\CompilerUI\OpenCompilerFromCollider.cs" />
+    <Compile Include="Assets\Scripts\CompilerUI\TriggerCompiler.cs" />
     <Compile Include="Assets\Scripts\DashScript.cs" />
     <Compile Include="Assets\Scripts\Dialogue.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
@@ -438,6 +442,7 @@
     <Compile Include="Assets\Scripts\GuideFollow.cs" />
     <Compile Include="Assets\Scripts\LoadNewArea.cs" />
     <Compile Include="Assets\Scripts\LockScript.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Objectpass.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
@@ -448,6 +453,7 @@
     <Compile Include="Assets\Scripts\SwitchScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEnemies.cs" />
     <Compile Include="Assets\Scripts\TriggerFall.cs" />
+    <Compile Include="Assets\Scripts\TriggerFollower.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DragAndDropCell.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DragAndDropItem.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DummyControlUnit.cs" />

@@ -9,14 +9,14 @@ public class GuideFollow : MonoBehaviour {
 	private GameObject player;
 	public float maxDistance;
 	public float moveSpeed;
-    private GuideFollow Instance;
+    private GameObject Instance;
     void Awake()
     {
         //Check if instance already exists
         if (Instance == null)
         {
             //if not, set instance to this
-            Instance = this;
+            Instance = this.gameObject;
         }
         //If instance already exists and it's not this:
         else if (Instance != this)

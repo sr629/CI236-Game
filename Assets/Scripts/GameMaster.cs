@@ -6,6 +6,17 @@ public class GameMaster : MonoBehaviour {
 
     // Use this for initialization
     private GameMaster gm;
+    public bool dash;
+    public bool door; 
+    public bool gun;
+    public bool door2;
+    public bool saw;
+    public bool sawMove;
+    private GameObject[] spawnPoints;
+    private GameObject closestSpawn;
+    public int spawnDelay;
+    public GameObject playerPrefab;
+    private GameObject[] compilers;
 
 	void Start () {
         if (gm==null)
@@ -35,16 +46,50 @@ public class GameMaster : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
     }
+    public void UpdateProgress(int index)
+    {
+        switch (index)
+        {
+            case 1:
+                dash = true;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<DashScript>().enabled = dash;
+                break;
+            case 2:
+                door = true;
+                GameObject.FindGameObjectWithTag("Door1").GetComponent<Animator>().SetBool("Opened", true);
+                break;
+            case 3:
+                saw = true;
+                GameObject[] saws = GameObject.FindGameObjectsWithTag("SawStatic");
+                foreach (GameObject item in saws)
+                {
+                    item.GetComponent<Animator>().SetBool("Hide", saw);
+                }
+                break;
+            case 4:
+                sawMove = true;
+                GameObject.FindGameObjectWithTag("MoveSaw").GetComponent<Animator>().speed = 0.3f;
+                break;
+            case 5:
+                door2 = true;
+                GameObject.FindGameObjectWithTag("Door2").GetComponentInChildren<OpenDoor>().puzzleSolved = true;
+                break;
 
-    private GameObject[] spawnPoints;
-    private GameObject closestSpawn;
-    public int spawnDelay;
-    public GameObject playerPrefab;
+            case 6:
+                gun = true;
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>().shootAvailable = gun;
+                break;
+            default:
+                break;
+        }
+    }
 
     public IEnumerator RespawnPlayer()
     {
         yield return new WaitForSeconds(spawnDelay);
         Instantiate(playerPrefab, closestSpawn.transform.position, closestSpawn.transform.rotation);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<DashScript>().enabled = dash;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>().enabled = gun;
     }
 
     public void KillPlayer(GameObject player)
