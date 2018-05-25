@@ -17,7 +17,7 @@ public class FadeLoadScene : MonoBehaviour {
 
         Instance = this;
 
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject); 
     }
     void Start () {
         animator = GetComponent<Animator>();

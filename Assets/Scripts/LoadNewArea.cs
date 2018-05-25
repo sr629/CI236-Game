@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 public class LoadNewArea : MonoBehaviour {
 
     public string sceneName;
+    private FadeLoadScene fadeLoadScene;
 	// Use this for initialization
 	void Start () {
-		
+        fadeLoadScene = GameObject.Find("FadeEffect").GetComponent<FadeLoadScene>(); 
 	}
 	
 	// Update is called once per frame
@@ -17,10 +18,10 @@ public class LoadNewArea : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player" )
+        if (collision.gameObject.tag == "Player")
         {
-            Debug.Log("yes");
-            SceneManager.LoadScene(sceneName,LoadSceneMode.Single);
+            Debug.Log("LoadTrigger");
+            StartCoroutine(fadeLoadScene.FadeToLevel(sceneName));
         }
 
     }

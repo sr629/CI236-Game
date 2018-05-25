@@ -8,6 +8,8 @@ public class BulletBehaviour : MonoBehaviour
 
     private float timer;
     public int bulletLife = 4;
+    public GameObject explosion;
+    public GameObject bulletExplosion;
 
     // Use this for initialization
     void Start()
@@ -27,8 +29,19 @@ public class BulletBehaviour : MonoBehaviour
 
     }
 
-    void OnCollisionEnter()
+    void OnCollisionEnter2D(Collision2D other)
     {
-        GameObject.Destroy(gameObject);
+        if (other.gameObject.tag == "Target")
+        {
+
+            other.gameObject.GetComponent<SpriteRenderer>().color = Color.grey;
+            Destroy(gameObject);
+
+        }
+         
+        if (other.gameObject.tag == "Wall")
+        {
+            Destroy(gameObject);
+        }
     }
 }

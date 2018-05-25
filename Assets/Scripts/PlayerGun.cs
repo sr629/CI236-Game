@@ -16,19 +16,38 @@ public class PlayerGun : MonoBehaviour {
     public float timeBetweenShots = 0.3333f;
     private float timestamp;
     private bool reloading;
+    public bool shootAvailable;
 
 
 
     // Use this for initialization
-    void Start () {
-    }
+    //void Start () {
+    //}
 
     // Update is called once per frame
-    void Update () {
+    //void Update () {
 
+
+    //        if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time >= timestamp)
+    //        {
+    //            Fire();
+    //            //take away from ammo
+    //            ammo -= 1;
+
+    //            timestamp = Time.time + timeBetweenShots;
+    //        }
+
+    //        if (ammo != startingAmmo && !reloading)
+    //        {
+    //            StartCoroutine(Recharge());
+    //        }
         
 
-        if (Input.GetButtonDown("Fire1") && ammo > 0 && Time.time >= timestamp)
+    //}
+
+    public void Shoot()
+    {
+        if (shootAvailable && ammo > 0 && Time.time >= timestamp)
         {
             Fire();
             //take away from ammo
@@ -37,13 +56,12 @@ public class PlayerGun : MonoBehaviour {
             timestamp = Time.time + timeBetweenShots;
         }
 
-       if (ammo != startingAmmo && !reloading)
+        if (ammo != startingAmmo && !reloading)
         {
             StartCoroutine(Recharge());
         }
 
     }
-
     private void reload()
     {
         ammo += 1;
@@ -55,11 +73,11 @@ public class PlayerGun : MonoBehaviour {
         //finding cursor position
         Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         //finding character position
-        Vector2 characterPos = new Vector2(transform.position.x, transform.position.y);
+        Vector2 spawn = new Vector2(bulletSpawn.position.x, bulletSpawn.position.y);
 
 
         //calculating vector for direction
-        Vector2 direction = cursorPos - characterPos;
+        Vector2 direction = cursorPos - spawn;
         direction.Normalize();
 
 
@@ -67,7 +85,7 @@ public class PlayerGun : MonoBehaviour {
         Quaternion rotation = Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90);
 
         //create bullet
-        GameObject bullet = (GameObject)Instantiate(bulletPrefab, characterPos, rotation);
+        GameObject bullet = (GameObject)Instantiate(bulletPrefab, spawn, rotation);
         //add velocity
         bullet.GetComponent<Rigidbody2D>().velocity = direction * speed;
 
