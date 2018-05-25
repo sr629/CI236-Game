@@ -31,22 +31,26 @@ public class BulletBehaviour : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
+        if (other.gameObject.layer == 2)
+        {
+            Physics2D.IgnoreLayerCollision(other.gameObject.GetComponent<SpriteRenderer>().sortingLayerID, gameObject.GetComponent<SpriteRenderer>().sortingLayerID, true);
+        }
         if (other.gameObject.tag == "Enemy")
         {
 
             GameObject expl = Instantiate(explosion, other.transform.position, Quaternion.identity) as GameObject;
             Destroy(gameObject);
             Destroy(other.gameObject);
-            Destroy(expl, 1);
+            Destroy(expl,0.3f);
         }
         if (other.gameObject.tag == "Target")
         {
-            GameObject expl = Instantiate(bulletExplosion, other.transform.position, Quaternion.identity) as GameObject;
+
             other.gameObject.GetComponent<SpriteRenderer>().color = Color.grey;
             Destroy(gameObject);
-            Destroy(expl, 1);
 
         }
+         
         if (other.gameObject.tag == "Wall")
         {
             Destroy(gameObject);

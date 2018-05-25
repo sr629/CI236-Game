@@ -9,6 +9,8 @@ TagManager:
   - Pit
   - Wall
   - Target
+  - Module
+  - NoBulletCollision
   layers:
   - Default
   - TransparentFX

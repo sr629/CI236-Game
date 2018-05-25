@@ -55,7 +55,7 @@ public class PlayerGun : MonoBehaviour {
         //finding cursor position
         Vector2 cursorPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         //finding character position
-        Vector2 characterPos = new Vector2(bulletSpawn.position.x, bulletSpawn.position.y);
+        Vector2 spawn = new Vector2(bulletSpawn.position.x, bulletSpawn.position.y);
 
 
         //calculating vector for direction
@@ -67,7 +67,7 @@ public class PlayerGun : MonoBehaviour {
         Quaternion rotation = Quaternion.Euler(0, 0, Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90);
 
         //create bullet
-        GameObject bullet = (GameObject)Instantiate(bulletPrefab, characterPos, rotation);
+        GameObject bullet = (GameObject)Instantiate(bulletPrefab, spawn, rotation);
         //add velocity
         bullet.GetComponent<Rigidbody2D>().velocity = direction * speed;
 
