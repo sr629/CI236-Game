@@ -9,13 +9,6 @@ public class TriggerEnemies : MonoBehaviour
 
     public GameObject enemy2;
 
-
-    // Use this for initialization
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.tag == "Player")

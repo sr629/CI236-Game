@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{18A227F1-5C0F-ACA8-E1B1-82377BC58276}</ProjectGuid>
+    <ProjectGuid>{B1DBED2A-E835-BC32-C03A-E6D310067FA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -195,6 +195,7 @@
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Objectpass.cs" />
     <Compile Include="Assets\Scripts\OpenDoor.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\PlayerGun.cs" />
     <Compile Include="Assets\Scripts\Respawn.cs" />
@@ -202,7 +203,7 @@
     <Compile Include="Assets\Scripts\StartPointScript.cs" />
     <Compile Include="Assets\Scripts\SwitchScript.cs" />
     <Compile Include="Assets\Scripts\TriggerEnemies.cs" />
-    <Compile Include="Assets\Scripts\triggerfall.cs" />
+    <Compile Include="Assets\Scripts\TriggerFall.cs" />
     <Compile Include="Assets\Scripts\TriggerFollower.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DragAndDropCell.cs" />
     <Compile Include="Assets\SimpleDragAndDrop\Scripts\DragAndDropItem.cs" />
@@ -254,10 +255,10 @@
     <None Include="Assets\AstarPathfindingProject\link.xml" />
     <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/shano/CI236-Game/Final/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/shano/CI236-Game/CI236-Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/shano/CI236-Game/Final/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/shano/CI236-Game/CI236-Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -455,7 +456,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/shano/CI236-Game/Final/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:/shano/CI236-Game/CI236-Game/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/User/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

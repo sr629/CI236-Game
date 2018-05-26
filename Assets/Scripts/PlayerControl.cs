@@ -6,7 +6,7 @@ public class PlayerControl : MonoBehaviour {
 
 	public float moveSpeed;
 	private float currentMoveSpeed;
-    private static PlayerControl instance;
+    public static PlayerControl Instance;
 
 	private Animator anim;
 	private Rigidbody2D myRigidbody;
@@ -33,13 +33,13 @@ public class PlayerControl : MonoBehaviour {
     void Awake()
     {
         //Check if instance already exists
-        if (instance == null)
+        if (Instance == null)
         {
             //if not, set instance to this
-            instance = this;
+            Instance = this;
         }
         //If instance already exists and it's not this:
-        else if (instance != this)
+        else if (Instance != this)
         {
             Destroy(gameObject);
         }
@@ -86,7 +86,7 @@ public class PlayerControl : MonoBehaviour {
 		} else
 			currentMoveSpeed = moveSpeed;
 
-        if (Input.GetButtonDown("Jump") && Time.time - lastDash >= 0.5f)
+        if (Input.GetButtonDown("Jump") && GameMaster.Instance.dash && Time.time - lastDash >= 0.5f)
         {
             Vector2 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             Vector2 direction = target -  new Vector2(transform.position.x, transform.position.y);

@@ -23,7 +23,4 @@ public class Door : MonoBehaviour
         doorAnimator.SetBool("Opened", switch1);
     }
 
-
-    // Update is called once per frame
-
 }

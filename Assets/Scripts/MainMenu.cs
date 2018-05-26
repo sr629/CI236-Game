@@ -5,11 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-	public void PlayGame()
+    public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(FadeLoadScene.Instance.FadeToLevel("Intro"));
     }
-
     public void QuitGame()
     {
         Debug.Log("Quit");

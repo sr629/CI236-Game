@@ -31,8 +31,7 @@ public class TriggerFall : MonoBehaviour {
                 spriteRenderer.sortingLayerName = "Background";
                 script.enabled = false;
                 rb.gravityScale = 1.5f;
-                //respawn
-                //GameMaster gameMaster = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+                
                 StartCoroutine(GameMaster.Instance.KillWithDelay(gameObject, 1));
             }
         }

@@ -20,6 +20,7 @@ TagManager:
   - MoveSaw
   - Door2
   - Door1
+  - DialogueBox
   layers:
   - Default
   - TransparentFX

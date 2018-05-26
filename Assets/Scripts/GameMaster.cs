@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameMaster : MonoBehaviour {
 
     // Use this for initialization
-    private GameMaster gm;
     public bool dash;
     public bool door; 
     public bool gun;
@@ -14,18 +13,14 @@ public class GameMaster : MonoBehaviour {
     public bool sawMove;
     private GameObject[] spawnPoints;
     private GameObject closestSpawn;
-    public int spawnDelay;
+    public int spawnDelay=1;
     public GameObject playerPrefab;
-    private GameObject[] compilers;
 
-	void Start () {
-        if (gm==null)
-        {
-            gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
-        }
 
-        spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
-	}
+    void Start()
+    {
+        ChargeUi.Instance.gameObject.SetActive(false);
+    }
     public static GameMaster Instance;
     void Awake()
     {
@@ -72,12 +67,13 @@ public class GameMaster : MonoBehaviour {
                 break;
             case 5:
                 door2 = true;
-                GameObject.FindGameObjectWithTag("Door2").GetComponentInChildren<OpenDoor>().puzzleSolved = true;
+                GameObject.FindGameObjectWithTag("Door2").GetComponentInChildren<OpenDoor>().puzzleSolved = door2;
                 break;
 
             case 6:
                 gun = true;
                 GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>().shootAvailable = gun;
+                ChargeUi.Instance.gameObject.SetActive(gun);
                 break;
             default:
                 break;
@@ -96,9 +92,9 @@ public class GameMaster : MonoBehaviour {
     {
         Debug.Log("KillPlayer");
         setClosestSpawnPoint(player.transform.position);
-        
         Destroy(player.gameObject);
-        gm.StartCoroutine(gm.RespawnPlayer());
+        FadeLoadScene.Instance.GetComponent<Animator>().SetTrigger("Fade");
+        StartCoroutine(GameMaster.Instance.RespawnPlayer());
     }
 
     public IEnumerator KillWithDelay( GameObject player, float seconds)
@@ -110,7 +106,7 @@ public class GameMaster : MonoBehaviour {
 
     private void setClosestSpawnPoint(Vector2 playerPos)
     {   
-        if (spawnPoints[0]==null)
+        if (spawnPoints == null)
         {
             spawnPoints = GameObject.FindGameObjectsWithTag("Respawn");
         }
@@ -126,5 +122,9 @@ public class GameMaster : MonoBehaviour {
             }
 
         }
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

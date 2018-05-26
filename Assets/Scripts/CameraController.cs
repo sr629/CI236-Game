@@ -7,20 +7,8 @@ public class CameraController : MonoBehaviour {
 	public GameObject followTarget;
 	private Vector3 targetPosition;
 	public float moveSpeed;
-    private static bool cameraExists;
-
     private float nextTimeToSearch = 0;
-	// Use this for initialization
-	/*void Start () {
-
-        if (!cameraExists)
-        {
-            cameraExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else Destroy(gameObject);
-    }*/
-    private CameraController Instance;
+    private static CameraController Instance;
     void Awake()
     {
         //Check if instance already exists

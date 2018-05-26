@@ -9,7 +9,7 @@ public class GuideFollow : MonoBehaviour {
 	private GameObject player;
 	public float maxDistance;
 	public float moveSpeed;
-    private GameObject Instance;
+    private static GameObject Instance;
     void Awake()
     {
         //Check if instance already exists

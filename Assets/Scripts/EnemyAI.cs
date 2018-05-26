@@ -150,7 +150,7 @@ public class EnemyAI : MonoBehaviour {
         {
             GameObject expl = Instantiate(explosion, other.transform.position, Quaternion.identity) as GameObject;
             Destroy(gameObject);
-            GameMaster.Instance.KillPlayer(other.gameObject);
+           // GameMaster.Instance.KillPlayer(other.gameObject);
             Destroy(expl, 1);
 
         }

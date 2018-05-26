@@ -37,14 +37,14 @@ public class TriggerCompiler : MonoBehaviour
         dashScript = player.GetComponent<DashScript>();
         shootScript = player.GetComponent<PlayerGun>();
     }
-    private GameObject instance;
+    private static TriggerCompiler instance;
     void Awake()
     {
         //Check if instance already exists
         if (instance == null)
         {
             //if not, set instance to this
-            instance = this.gameObject;
+            instance = this;
         }
         //If instance already exists and it's not this:
         else if (instance != this)
@@ -58,7 +58,7 @@ public class TriggerCompiler : MonoBehaviour
     }
         private void Update()
     {
-        if (paused && Input.GetKeyDown(KeyCode.Escape))
+        if (paused && Input.GetKeyDown(KeyCode.Q))
         {
             ClearCompiler();
             OpenCompiler();
@@ -107,7 +107,7 @@ public class TriggerCompiler : MonoBehaviour
         currentCompiler = compiler;
         if(currentCompiler.GetComponent<OpenCompilerFromCollider>().solved==true)
         {
-            outputText.text = ">puzzle already completed\n>press esc to exit";
+            outputText.text = ">puzzle already completed\n>press q to exit";
         }
         answerString = string.Concat(answer);
         int solutionLength = answer.Length;
@@ -141,7 +141,7 @@ public class TriggerCompiler : MonoBehaviour
         Debug.Log("-"+output+"-");
         if (string.Compare(answerString, string.Concat(inputStrings)) == 0)
         {
-            outputText.text = ">compiling...\n>build successful\n>press esc to exit";
+            outputText.text = ">compiling...\n>build successful\n>press q to exit";
             currentCompiler.GetComponent<OpenCompilerFromCollider>().solved = true;
             currentCompiler.GetComponent<OpenCompilerFromCollider>().ProgressUpdate();
         }
