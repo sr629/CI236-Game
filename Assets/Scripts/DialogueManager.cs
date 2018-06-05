@@ -28,7 +28,7 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
         player = GameObject.FindGameObjectWithTag("Player");
     }
-    private static DialogueManager instance;
+    public static DialogueManager instance;
     void Awake()
     {
         //Check if instance already exists

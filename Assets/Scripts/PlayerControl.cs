@@ -99,6 +99,11 @@ public class PlayerControl : MonoBehaviour {
             gunScript.Shoot();
         }
 
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+
        
         anim.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
 		anim.SetFloat ("MoveY", Input.GetAxisRaw ("Vertical"));
@@ -106,5 +111,12 @@ public class PlayerControl : MonoBehaviour {
 		anim.SetFloat ("LastMoveX", lastMove.x);
 		anim.SetFloat ("LastMoveY", lastMove.y);
 	}
-    
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "StaticSaw" || collision.tag == "MoveSaw")
+        {
+            GameMaster.Instance.KillPlayer(gameObject);
+        }
+    }
 }

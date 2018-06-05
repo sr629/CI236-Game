@@ -16,6 +16,10 @@ public class ChargeUi : MonoBehaviour {
         else if (Instance != this)
             Destroy(gameObject);
     }
+    private void Start()
+    {
+        this.gameObject.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {

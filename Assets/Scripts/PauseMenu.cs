@@ -15,7 +15,6 @@ public class PauseMenu : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log("Swag");
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("test");

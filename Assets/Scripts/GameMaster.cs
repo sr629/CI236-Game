@@ -85,7 +85,7 @@ public class GameMaster : MonoBehaviour {
         yield return new WaitForSeconds(spawnDelay);
         Instantiate(playerPrefab, closestSpawn.transform.position, closestSpawn.transform.rotation);
         GameObject.FindGameObjectWithTag("Player").GetComponent<DashScript>().enabled = dash;
-        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>().enabled = gun;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerGun>().shootAvailable = gun;
     }
 
     public void KillPlayer(GameObject player)

@@ -282,12 +282,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703210437}
---- !u!114 &719104072 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114370499610707364, guid: 7941cd128d64cd449a7cd91b80a075d4,
-    type: 2}
-  m_PrefabInternal: {fileID: 291478272}
-  m_Script: {fileID: 11500000, guid: 57392a69e17f44a4a9a7b1b7cddf6c13, type: 3}
 --- !u!1 &845869374
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,8 +358,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 719104072}
-        m_MethodName: Quit
+      - m_Target: {fileID: 1191130191}
+        m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -489,6 +483,7 @@ GameObject:
   - component: {fileID: 1191130189}
   - component: {fileID: 1191130188}
   - component: {fileID: 1191130187}
+  - component: {fileID: 1191130191}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -573,6 +568,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1191130191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1191130186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257ccc7443747c0438c7d845f4d206f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1975406753
 GameObject:
   m_ObjectHideFlags: 0
